@@ -1,0 +1,13 @@
+# Exclude build artifacts
+*.ts linguist-detectable
+public/** linguist-vendored
+*.jpeg binary
+
+yarn.lock linguist-generated
+
+src/**/*.tsx linguist-detectable
+*.min.js linguist-generated
+*.jpg binary
+*.png binary
+
+*.min.css linguist-generated
